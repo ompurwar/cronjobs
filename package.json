@@ -1,0 +1,21 @@
+{
+  "name": "cronjob",
+  "version": "1.0.0",
+  "description": "a scheduler app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "scheduler",
+    "cron-job"
+  ],
+  "author": "om purwar <om.purwar@intelliscale.co.in>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cron": "^1.6.0",
+    "express": "^4.16.4",
+    "mqtt": "^2.18.8"
+  }
+}
